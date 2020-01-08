@@ -1,10 +1,19 @@
-# Algorithm
-R고리thm
+package com.beemiel.algorithm.level1;
 
-> [완주하지 못한 선수](https://programmers.co.kr/learn/courses/30/lessons/42576)  
+import java.sql.SQLOutput;
+import java.util.Arrays;
 
-배열을 정렬한 다음 두 배열을 비교
-<pre><code>
+public class Level1 {
+
+    public static void main(String[] args) {
+        System.out.println(solution(new String[]{"mislav", "stanko", "mislav", "ana"}, new String[]{"stanko", "ana", "mislav"}));
+
+        System.out.println(reverse(456));
+    }
+
+
+    //완주하지 못한 선수
+    //https://programmers.co.kr/learn/courses/30/lessons/42576
     public static String solution(String[] participant, String[] completion) {
         String answer = "";
 
@@ -21,14 +30,9 @@ R고리thm
 
         return answer;
     }
-</code></pre>
-***
 
-> [정수 뒤집기](https://leetcode.com/problems/reverse-integer/)  
-
-먼저 input값이 음수일 경우 양수로 변환한 다음 String으로 변환한다.  
-그리고 문자열을 뒤집어 준 다음 int로 변환해서 부호를 곱해 반환한다. 
-<pre><code>
+    //정수 뒤집기
+    //https://leetcode.com/problems/reverse-integer/
     public static int reverse(int x) {
         String inputToString ="";
         String returnString = "";
@@ -48,6 +52,7 @@ R고리thm
 
         return (Integer.parseInt(returnString)*minus);
     }
-</code></pre>
 
-***
+
+
+}
