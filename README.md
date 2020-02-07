@@ -3,10 +3,12 @@ R고리thm
   
   
 ### 백준  
-> [설탕 배달](https://www.acmicpc.net/problem/2839)
+> 200205 [설탕 배달](https://www.acmicpc.net/problem/2839)
 
 ***
-### 프로그래머스
+### 프로그래머스  
+> 200207 [모의고사](https://programmers.co.kr/learn/courses/30/lessons/42840)  
+
 > [완주하지 못한 선수](https://programmers.co.kr/learn/courses/30/lessons/42576)  
 배열을 정렬한 다음 두 배열을 비교  
 
